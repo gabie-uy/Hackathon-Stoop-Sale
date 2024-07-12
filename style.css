@@ -21,16 +21,16 @@
     perspective: 800px; 
   }
   
-  .container:active > .card {
+  .container:hover > .card {
     cursor: pointer;
     transform: rotateY(180deg);
   }
   
-  .card {
+ .card {
     height: 100%;
     width: 100%;
     position: relative;
-    transition: transform 1500ms;
+    transition: transform 1200ms;
     transform-style: preserve-3d;
   }
   
@@ -62,7 +62,7 @@
     justify-content: center;
   }
 
-  .sticker {
+  .logo {
     border-style: solid;
     border-color: rgb(0, 0, 0);
     border-width: 2px;
@@ -88,5 +88,18 @@
     font-family: "Poppins", sans-serif;
     font-size: 100%;
     text-align: right;
-    padding: 325px 25px 50px 25px;
+    padding: 0 20px 0 0;
+  }
+
+  .welcome-note{
+    font-family: "Poppins", sans-serif;
+    font-size: 100%;
+    text-align: left;
+    padding: 5px 300px 0 25px;
+  }
+
+  .email {
+    font-family: "Poppins", sans-serif;
+    font-size: 90%;
+    padding: 100px 0 0 25px;
   }
